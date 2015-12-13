@@ -1,0 +1,16 @@
+ 
+*~
+*.aux
+*.backup
+*.bak
+*.dvi
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.pdf
+*.swp
+*.toc
+*.out

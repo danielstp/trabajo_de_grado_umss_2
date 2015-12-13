@@ -1,46 +1,46 @@
-\chapter{MetodologÌa}
+\chapter{Metodolog\'ia}
 
 \section{Pila del producto (product backlog)}
 %\section{Pila del producto}
-En el presente proyecto se utilizar· la metodologÌa de desarrollo de software SCRUM \cite{scrum_book}.
+En el presente proyecto se utilizar√° la metodolog√≠a de desarrollo de software SCRUM \cite{scrum_book}.
 
-La siguiente tabla es una lista priorizada de requisitos (features) para ser implementadas en el proyecto. Cada una de estas caracteristicas se escribieron de acuerdo a los objetivos especÌficos, que fueron definidos en el Capitulo \ref{cap:intro}.
+La siguiente tabla es una lista priorizada de requisitos (features) para ser implementadas en el proyecto. Cada una de estas caracteristicas se escribieron de acuerdo a los objetivos espec√≠ficos, que fueron definidos en el Capitulo \ref{cap:intro}.
 
 \def\arraystretch{2}
-\newcommand{\pbesquiv}{Como robot debo ser capaz de esquivar los obst·culos que se presentan en el camino del robot, con el objetivo de hacerlo de forma autÛnoma. } 
+\newcommand{\pbesquiv}{Como robot debo ser capaz de esquivar los obst√°culos que se presentan en el camino del robot, con el objetivo de hacerlo de forma aut√≥noma. }
 
 \newcommand{\pbplathard}{Como estudiante debo implementar una plataforma de hardware que sirva de base para el robot, con el objetivo de tener un robot operativo.}
-\newcommand{\pbrecon}{Como robot quiero ser capaz de reconocer objetos existentes en un fotograma, con el objetivo de tener estos datos para calcular su posiciÛn en el plano.}
+\newcommand{\pbrecon}{Como robot quiero ser capaz de reconocer objetos existentes en un fotograma, con el objetivo de tener estos datos para calcular su posici√≥n en el plano.}
 
-\newcommand{\pbprof}{Como robot quiero saber a que profundidad en el plano se encuentran los obst·culos, con el objetivo de poder esquivarlos sabiendo su posiciÛn.}
+\newcommand{\pbprof}{Como robot quiero saber a que profundidad en el plano se encuentran los obst√°culos, con el objetivo de poder esquivarlos sabiendo su posici√≥n.}
 
-\newcommand{\pbdocum}{Como estudiante debo escribir la documentaciÛn del proyecto de grado, con el objetivo de tenerlo completado.}
+\newcommand{\pbdocum}{Como estudiante debo escribir la documentaci√≥n del proyecto de grado, con el objetivo de tenerlo completado.}
 
-\newcommand{\pbincli}{Como robot quiero saber mi inclinaciÛn actual, con el objetivo de saber si estoy en peligro de volcarme.}
+\newcommand{\pbincli}{Como robot quiero saber mi inclinaci√≥n actual, con el objetivo de saber si estoy en peligro de volcarme.}
 
 \begin{longtable}{|c|p{12.5cm}|c|} %p{1.8cm}|p{1.9cm}
 \hline
-\textbf{N∞} & \textbf{CaracterÌsticas (features)} & \textbf{Prioridad} \\ \hline
+\textbf{N¬∞} & \textbf{Caracter√≠sticas (features)} & \textbf{Prioridad} \\ \hline
 \hline
-%Se diseÒar· un robot de tal manera que sea totalmente inal·mbrico.
+%Se dise√±ar√° un robot de tal manera que sea totalmente inal√°mbrico.
 %listo
 
-%Se implementar· un sistema de visiÛn artificial que sea capaz de reconocer obst·culos existentes en un plano.
+%Se implementar√° un sistema de visi√≥n artificial que sea capaz de reconocer obst√°culos existentes en un plano.
 1 & \pbrecon & Alta  \\ \hline
 %investigar opencv blobs
 %investigar filtros
 %Obtener coordenadas de objetos reconocidos
 
 
-%Se implementar· un algoritmo para detectar la profundidad de los obst·culos en un fotograma.
+%Se implementar√° un algoritmo para detectar la profundidad de los obst√°culos en un fotograma.
 
 2 & \pbprof & Alta \\ \hline
 %Obtener distancia aproximada de los objetos reconocidos
 
 
 
-%Se implementar· un sistema de navegaciÛn que permita al robot moverse de forma autÛnoma a un destino establecido.
-%3 & Como robot debo ser capaz de llegar a un destino establecido de forma autÛnoma, con el objetivo de cumplir las instrucciones del operador. & Alta \\ \hline
+%Se implementar√° un sistema de navegaci√≥n que permita al robot moverse de forma aut√≥noma a un destino establecido.
+%3 & Como robot debo ser capaz de llegar a un destino establecido de forma aut√≥noma, con el objetivo de cumplir las instrucciones del operador. & Alta \\ \hline
 
 3 & \pbesquiv & Alta \\ \hline
 
@@ -49,25 +49,25 @@ La siguiente tabla es una lista priorizada de requisitos (features) para ser imp
 5 & \pbdocum  & Media \\ \hline
 
 
-%Se implementar· un sistema de comunicaciones entre el robot y el operador. 
+%Se implementar√° un sistema de comunicaciones entre el robot y el operador.
 %7 & Como robot quiero ser capaz de comunicarme con mi operador, con el objetivo de poder recibir coordenadas para saber mi destino. & Media  \\ \hline
 
-% Se desarrollar· un sistema de posicionamiento, el cual detectara la posiciÛn actual del robot.
-%8 & Como robot quiero saber mi posiciÛn actual, con el objetivo de poder enviar al robot cuando se sepan las coordenadas. & Media \\ \hline
+% Se desarrollar√° un sistema de posicionamiento, el cual detectara la posici√≥n actual del robot.
+%8 & Como robot quiero saber mi posici√≥n actual, con el objetivo de poder enviar al robot cuando se sepan las coordenadas. & Media \\ \hline
 
-%Se implementar· un sistema de protecciÛn que alarme al robot en caso de estar peligrosamente inclinado.
+%Se implementar√° un sistema de protecci√≥n que alarme al robot en caso de estar peligrosamente inclinado.
 6 & \pbincli  & Baja \\ \hline
 % Habilitar giroscopio a raspberry pi
 % Implementar sistema de proteccion, deacuerdo con las limitaciones del robot
 
-%Se escribir· documentaciÛn tÈcnica y de usuario del software a entregar.
-%10 & Como usuario tÈcnico quiero saber como configurar e instalar el sistema, con el objetivo de tener un sistema completamente operativo  & Baja \\ \hline
+%Se escribir√° documentaci√≥n t√©cnica y de usuario del software a entregar.
+%10 & Como usuario t√©cnico quiero saber como configurar e instalar el sistema, con el objetivo de tener un sistema completamente operativo  & Baja \\ \hline
 
 %11 & Como usuario final quiero saber como operar el robot, con el objetivo de aprender a operar el robot. & Baja \\ \hline
 \end{longtable}
 
-\section{EstimaciÛn de historias de usuario}
-La estimaciÛn de esfuerzo de las historias de usuario se realizaran utilizando la tÈcnica de Planning Poker. Se utilizara el rango de 1, 2, 3, 5, 8, 13.
+\section{Estimaci\'on de historias de usuario}
+La estimaci√≥n de esfuerzo de las historias de usuario se realizaran utilizando la t√©cnica de Planning Poker. Se utilizara el rango de 1, 2, 3, 5, 8, 13.
 
 \section{Sprint A}
 \input{012-Cap04-SprintA}
