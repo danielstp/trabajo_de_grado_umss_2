@@ -1,10 +1,16 @@
 # Plantilla en LaTeX para proyecto de grado de la FCYT - UMSS
+- este es el documento en proceso de mi trabajo final, DsTp
+
 
 Generar pdf:
-`pdflatex 001-Caratula-Caratula.tex`
+`make`
 
-Para añadir un nuevo fichero .tex este necesita estar en formato iso-8859.
+Se puede usar kile
 
+
+Para añadir un nuevo fichero .tex este necesita estar en formato utf8.
+
+(antiguo)
 Para convertir a iso-8859 desde vim:
 `:set fileencoding=iso-8859-1`
 
