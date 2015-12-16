@@ -1,0 +1,118 @@
+\chapter{Herramientas}
+\section{Arduino}
+
+Es una plataforma de hardware libre, basada en una placa con un microcontrolador
+y un entorno de desarrollo, diseñada para facilitar el uso de la electrónica en
+proyectos multidisciplinares.
+
+El hardware consiste en una placa con un microcontrolador Atmel AVR y puertos de
+entrada/salida. Los microcontroladores más usados son los Atmega168, Atmega328,
+Atmega1280, y Atmega8 por su sencillez y bajo coste, que permiten el desarrollo
+de múltiples diseños. Por otro lado el software consiste en un entorno de
+desarrollo que implementa el lenguaje de programación «Processing/Wiring» y el
+cargador de arranque(bootloader) que es ejecutado en la placa. Se programa en el
+ordenador para que la placa controle los componentes electrónicos.
+
+Desde octubre de 2012, Arduino utiliza los microcontroladoras CortexM3 de ARM de
+32 bits, que coexistirán con las más limitadas, pero también económicas AVR de 8
+bits. ARM y AVR no son plataformas compatibles a nivel binario, pero se pueden
+programar con el mismo IDE de Arduino y hacerse programas que compilen sin
+cambios en las dos plataformas. Eso sí, los microcontroladores CortexM3 usan
+3,3V, a diferencia de la mayoría de las placas con AVR, que generalmente usan
+5V. Sin embargo, ya anteriormente se lanzaron placas Arduino con Atmel AVR a
+3,3V como la Arduino Fio y existen compatibles de Arduino Nano y Pro como
+Meduino en que se puede conmutar el voltaje.
+
+De la placa Arduino, puede tomar información del entorno a través de sus
+entradas analógicas y digitales, puede controlar luces, motores y otros
+actuadores. El microcontrolador en la placa Arduino se programa mediante el
+lenguaje de programación Arduino (basado en Wiring) y el entorno de desarrollo
+Arduino (basado en Processing). Los proyectos hechos con Arduino pueden
+ejecutarse sin necesidad de conectar a un ordenador.
+
+También cuenta con su propio software que se puede descargar de su página
+oficial que ya incluye los drivers de todas las tarjetas disponibles lo que hace
+más fácil la carga de códigos desde el computador.
+
+También se puede utilizar para desarrollar objetos interactivos autónomos o
+puede ser conectado a software tal como Adobe Flash, Processing, Max/MSP, Pure
+Data. Una tendencia tecnológica es utilizar Arduino como tarjeta de adquisición
+de datos desarrollando interfaces en software como JAVA, Visual Basic y LabVIEW
+6 . Las placas se pueden montar a mano o adquirirse. El entorno de desarrollo
+integrado libre se puede descargar gratuitamente.
+
+\subsection{Arduino Mega 2560}
+El Arduino Mega 2560 esta basado en el Atmega2560. Cuenta con 54 pines digitales
+de entrada / salida (de los cuales 15 se pueden utilizar como salidas PWM), 16
+entradas analógicas, 4 UARTs (hardware puertos serie), un oscilador de 16 MHz,
+una conexión USB, un conector de alimentación, un conector ICSP(In Cirtuit
+Serial Programmer), y un botón de reinicio. Contiene todo lo necesario para
+apoyar el microcontrolador; simplemente conectarlo a un ordenador con un cable
+USB o el poder con un adaptador de CA o la batería a CC para empezar. El
+conector Mega 2560 es compatible con la mayoría de los escudos diseñados para el
+Arduino Uno y los antiguos tableros Duemilanove o Diecimila.
+
+El Mega 2560 es una actualización de la Arduino Mega, que sustituye.
+
+\subsubsection{Caracteristicas}
+\begin{description} \itemsep0pt \parskip0pt \parsep0pt
+  \item[Microcontrolador] Atmega2560
+  \item[Voltaje de funcionamiento] 5V
+  \item[Voltaje de entrada (recomendado)] 7-12V
+  \item[Voltaje de entrada (límite)] 6-20V
+  \item[Pines Digitales E/S] 54 (de los cuales 15 proporcionan salida PWM)
+  \item[Entradas analógicas] 16
+  \item[Corriente DC por cada pin E/S] 20 mA
+  \item[Corriente DC de el pin 3.3V] 50 mA
+  \item[Memoria Flash] 256 KB de los cuales 8 KB utilizado por el gestor de arranque
+  \item[SRAM] 8 KB
+  \item[EEPROM] 4 KB
+  \item[Frecuencia] 16 MHz
+  \item[Longitud] 101,52 mm
+  \item[Ancho] 53.3 mm
+  \item[Peso] 37g
+\end{description}
+
+\subsection{Processing} Es un lenguaje de programación y entorno de desarrollo
+integrado de código abierto basado en Java, de fácil utilización, y que sirve
+como medio para la enseñanza y producción de proyectos multimedia e interactivos
+de diseño digital. Fue iniciado por Ben Fry y Casey Reas a partir de reflexiones
+en el Aesthetics and Computation Group del MIT Media Lab dirigido por John
+Maeda.
+
+Se distribuye bajo la licencia GNU GPL.
+
+\subsubsection{Alcance}
+
+Al estar basado en Java, puede heredar todas sus funcionalidades, convirtiéndose
+en una herramienta poderosa a la hora de encarar proyectos complejos.
+
+%\begin{table}
+%\centering
+%  \begin{tabular}{r r r r}
+%\textbf{Pin} & \textbf{Descripción} & \textbf{Pin} & \textbf{Descripción} \\
+%\hline
+%1 & \texttt{3.3v} & 2 & \texttt{5v} \\
+%3 & \texttt{SDA0*} & 4 & \texttt{5v} \\
+%5 & \texttt{SCL0*} & 6 & \texttt{GND} \\
+%7 &  \texttt{GPIO\_GCLK} & 8 & \texttt{TXD0*} \\
+%9 &  \texttt{GND} & 10 & \texttt{RXD0*} \\
+%11 &  \texttt{GPIO\_GEN0} & 12 & \texttt{GPIO\_GEN1} \\
+%13 &  \texttt{GPIO\_GEN2} & 14 & \texttt{GND} \\
+%15 &  \texttt{GPIO\_GEN3} & 16 & \texttt{GPIO\_GEN4} \\
+%17 &  \texttt{3.3v} & 18 & \texttt{GPIO\_GEN5} \\
+%19 &  \texttt{SPI\_MOSI*} & 20 & \texttt{GND} \\
+%21 &  \texttt{SPI\_MISO*} & 22 & \texttt{GPIO\_GEN6} \\
+%23 &  \texttt{SPI\_SCLK*} & 24 & \texttt{SPI\_CEO\_N*} \\
+%25 &  \texttt{GND} & 26 & \texttt{SPI\_CE1\_N*} \\
+%  \end{tabular}
+%  \caption{Descripción de los pines de GPIO}
+%  \label{table:gpio_descr}
+%\end{table}
+
+\section{Conclusiones}
+
+Se opto por la tecnología de Arduino por la simplicidad de desarrollo y las
+capacidades que exceden a los requerimientos actuales. Se escogió el Arduino
+Mega 2560, por su bajo coste y la cantidad extendida de pines, tanto analógicos
+como digitales

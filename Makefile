@@ -31,7 +31,7 @@ all: documento.pdf
 # -interactive=nonstopmode keeps the pdflatex backend from stopping at a
 # missing file reference and interactively asking you for an alternative.
 
-SOURCE=DsTp001Caratula.tex
+SOURCE=001-Caratula-Caratula.tex
 
 
 documento.pdf: $(SOURCE)

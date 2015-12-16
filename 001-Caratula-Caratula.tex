@@ -26,7 +26,7 @@
 \usepackage{titlesec} %reformatting the chapter headings
 \titleformat{\chapter}[block]
 {\normalfont\LARGE\bfseries\centering}
-{CAPITULO\thechapter: }{0em}{}
+{CAPITULO \thechapter: }{0em}{}
 
 \makeatletter
 \bookmarksetup{%
@@ -61,11 +61,12 @@
 
 % Espacio parrafos
 \setlength{\parskip}{6pt}
+\usepackage{adjustbox}
 
 \usepackage{graphicx}
-\usepackage{adjustbox}
+\usepackage{pstricks}
 % Todas las imágenes están en el directorio tp-img:
-\newcommand{\imgdir}{includes}
+\newcommand{\imgdir}{img}
 \graphicspath{{\imgdir/}}
 
 \usepackage{fontspec}
@@ -76,7 +77,8 @@
 \setsansfont[Mapping=tex-text]{DejaVu Sans}
 \setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
 
-\title{Mejoramiento del Proceso de deshidratación mediante la construcción de un sistema de control automático}
+\title{Mejoramiento del Proceso de deshidratación mediante la construcción de un
+  sistema de control automático}
 \author{Daniel Rodrigo Saguez Tezanos Pinto}
 \date{Diciembre, 2015}
 
@@ -134,7 +136,7 @@
       \hspace{2cm}\=\+
       \textsc{Presentado por:} \@author    \\
       \\
-      \textsc{Tutor:} Msc. Leticia Blanco Coca    \\
+      \textsc{Tutor:} MA Leticia Blanco Coca    \\
       \\
       %\textsc{Cochabamba - Bolivia}\\
       \\
@@ -155,25 +157,26 @@
 
   % caratula --------------------------------------------------------------
 
-  \input{002-Dedicatoria-Dedicatoria}
-  \input{003-Agradecimientos-Agradecimientos}
+  \include{002-Dedicatoria-Dedicatoria}
+
+  \include{003-Agradecimientos-Agradecimientos}
 
   % Las páginas empiezan a contar desde aqui
   \setcounter{page}{1}
-  \input{004-FichaResumen-FichaResumen}
-  \input{005-Indice01-IndiceGeneral}
-  \input{006-Indice02-IndiceDeFiguras}
-  \input{007-Indice03-IndiceDeTablas}
-  \input{008-Cap01-Introduccion}
-  \input{009-Cap02-Deshidratación}
-  \input{010-Cap03-ControlAutomático}
-  \input{010-Cap03-Herramientas}
-  \input{011-Cap04-Metodologia}
+  \include{004-FichaResumen-FichaResumen}
+  \include{005-Indice01-IndiceGeneral}
+  \include{006-Indice02-IndiceDeFiguras}
+  \include{007-Indice03-IndiceDeTablas}
+  \include{008-Introduccion}
+  \include{009-Deshidratación}
+  \include{010-ControlAutomático}
+  \include{010-Herramientas}
+  \include{011-Metodologia}
 
-  \input{018-Cap05-Conclusiones}
+  %\input{018-Conclusiones}
 
   \input{019-Bibliografia-Bibliografia}
-  \input{020-Anexos-Anexos}
+  %\input{020-Anexos-Anexos}
 
   \bookmark[page=13,level=-1]{Índice de cuadros}
 
