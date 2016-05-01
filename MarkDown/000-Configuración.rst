@@ -1,10 +1,10 @@
 .. header::
 
-    |lineaEnBlanco|
+    |page|
 
 .. footer::
 
-    Página: |page|
+    |page|
 
 .. |0copy| unicode:: 0xA9 .. copyright sign
    :ltrim:
@@ -24,24 +24,46 @@
 
     \ULCornerWallPaper{1}{Imágenes/umss.tex}
 
+.. |NumeraciónEnRomanos| raw:: latex
 
-.. |PaginasEnRomanos| raw:: latex
+  \pagenumbering{Roman}
 
-  \pagenumbering{Roman} % para comenzar la numeración de paginas en números romanos
+.. |NumeraciónEnArabigos| raw:: latex
+
+  \pagenumbering{arabic}
 
 .. |nuevaPagina| raw:: latex
 
   \newpage
 
+.. |nuevaPaginaLimpia| raw:: latex
+
+  \clearpage
+
 .. |InicioTodoDerecha| raw:: latex
 
-  \begin{flushright}\textit{
+  \begin{flushright}
 
 .. |FinTodoDerecha| raw:: latex
 
-    }
     \end{flushright}
 
 .. |SaltoLinea| raw:: latex
 
   \\
+
+.. |PaginaImpar| raw:: latex
+
+  \cleardoublepage
+
+.. |LaTeX| raw:: latex
+
+  \LaTeX
+
+.. |ListaDeFiguras| raw:: latex
+
+  \listoffigures
+
+.. |ListaDeTablas| raw:: latex
+
+  \listoftables

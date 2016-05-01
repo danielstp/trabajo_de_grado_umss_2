@@ -8,7 +8,8 @@
 
 |InicioTodoDerecha|
 
-        Debian, \LaTeX
+*La realización de este proyecto de grado* |SaltoLinea|
+*Debian,* |LaTeX|
 
 |FinTodoDerecha|
 

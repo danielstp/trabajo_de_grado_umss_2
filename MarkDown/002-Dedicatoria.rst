@@ -8,9 +8,9 @@
 
 |InicioTodoDerecha|
 
-Dedicado a |SaltoLinea|
-Valery Tamara Saguez Lamas |SaltoLinea|
-Cristal Amalia Tezanos Pinto Solares |dagger|
+*Dedicado a* |SaltoLinea|
+*Valery Tamara Saguez Lamas* |SaltoLinea|
+*Cristal Amalia Tezanos Pinto Solares* |dagger|
 
 |FinTodoDerecha|
 

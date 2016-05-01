@@ -3,6 +3,8 @@
 
 .. include:: 000-Configuración.rst
 
+|NumeraciónEnRomanos|
+
 .. include:: 001-Caratula.rst
 .. include:: 002-Dedicatoria.rst
 .. include:: 003-Agradecimientos.rst
