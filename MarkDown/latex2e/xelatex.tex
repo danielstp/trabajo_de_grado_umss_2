@@ -1,0 +1,113 @@
+$head_prefix% DsTp <http://daniel.saguez.org/>
+%%% Requerimientos
+$requirements
+%%% Doc Base
+\usepackage{wallpaper}
+\usepackage{fancyhdr}
+%margenes
+%segun guia
+\usepackage[top=2cm, bottom=2cm, inner=3cm, outer=2cm]{geometry}
+%segun CD de carrera
+%\usepackage[top=2.5cm, bottom=2.5cm, inner=3.5cm, outer=2.5cm]{geometry}
+% quita la sangria a los parrafos (sin sangria se ve feo :-)
+%\setlength{\parindent}{0cm}
+
+\setlength{\leftskip}{0mm}
+\setlength{\rightskip}{0mm}
+\setlength{\footskip}{5mm}
+\setlength{\headheight}{13mm}
+\setlength{\headsep}{2.5mm}
+%\setlength{\parindent}{3em}
+
+\fancyhead{}
+\fancyhead[LE,RO]{\slshape \rightmark}
+\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyhead[C]{\DUheader}
+\fancyfoot{} % reset
+\fancyfoot[C]{\DUfooter}
+\pagestyle{fancy}
+
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{xltxtra}
+\usepackage{pdflscape}
+\usepackage{etoolbox}
+\usepackage{tocloft}
+\usepackage[bookmarksnumbered, bookmarksopen=true]{hyperref}
+\hypersetup{colorlinks,
+  linkcolor=blue,
+  linktoc=page}
+\usepackage{amsmath}
+\usepackage{microtype}
+%para codigo fuente
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\usepackage{bookmark}
+\bookmarksetup{numbered}
+
+%reformatting the chapter headings
+\usepackage{titlesec}
+\titleformat{\chapter}[block]
+{\normalfont\LARGE\bfseries\centering}
+{CAPÍTULO \thechapter: }{0em}{}
+
+\makeatletter
+\bookmarksetup{%
+  addtohook={%
+    \ifnum\toclevel@chapter=\bookmarkget{level}\relax
+    \renewcommand*{\numberline}[1]{Capítulo #1: }%
+    \fi
+  },
+}
+\makeatother
+
+\renewcommand{\lstlistingname}{Listado}
+
+\lstset{
+  basicstyle=\footnotesize\ttfamily,
+  language=C++
+}
+
+% Espacio parrafos
+\setlength{\parskip}{6pt}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage{pstricks}
+% Todas las imágenes están en el directorio:
+\newcommand{\imgdir}{Imágenes}
+\graphicspath{{\imgdir/}}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+
+\setromanfont[Mapping=tex-text]{Linux Libertine O}
+\setsansfont[Mapping=tex-text]{DejaVu Sans}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+
+%%% Custom LaTeX preamble
+$latex_preamble
+%%% User specified packages and stylesheets
+$stylesheet
+%%% Fallback definitions for Docutils-specific commands
+$fallbacks$pdfsetup
+$titledata
+%%% Body
+\begin{document}
+
+  \newcommand{\umsslogo}{
+    \adjustbox{valign=t,width=3cm}{\input{Imágenes/umss.tex}}
+  }
+
+  \newcommand{\fcytlogo}{
+    \adjustbox{valign=t,width=3cm}{\input{Imágenes/fcyt.tex}}
+  }
+
+% \begin{titlepage}
+%  \thispagestyle{empty}
+% \end{titlepage}
+ $body_pre_docinfo$docinfo$dedication$abstract$body
+\end{document}
+
