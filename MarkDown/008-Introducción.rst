@@ -53,7 +53,7 @@ Objetivos General
 =================
 
 - Construir un sistema de control automático para el proceso de
-        deshidratación experimental de alimentos.
+  deshidratación experimental de alimentos.
 
 
 Objetivos Específicos
@@ -65,7 +65,7 @@ Los objetivos a cumplir durante el desarrollo del proyecto son:
 - Seleccionar sensores, controladores y actuadores a utilizar.
 - Desarrollar el modulo para funcionamiento básico del microcontrolador.
 - Diseñar el modelo unificado el sistema electrónico y el sistema de
-        información.
+  información.
 - Desarrollar el modulo de control supervisado.
 - Desarrollar el modulo de cambio de parámetros de control.
 - Implementar el control automático.

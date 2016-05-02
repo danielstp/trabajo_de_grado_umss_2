@@ -1,6 +1,6 @@
 .. header::
 
-    |page|
+    .
 
 .. footer::
 
@@ -67,3 +67,31 @@
 .. |ListaDeTablas| raw:: latex
 
   \listoftables
+
+.. |InicioFigura| raw:: latex
+
+  \begin{figure}[h]
+
+.. |Centrar| raw:: latex
+
+  \centering
+
+.. |ImagenTEX| raw:: latex
+
+  \input{
+
+.. |Descripción| raw:: latex
+
+  \caption{
+
+.. |Etiqueta| raw:: latex
+
+  \label{
+
+.. |CierreEtiqueta| raw:: latex
+
+  }
+
+.. |FinFigura| raw:: latex
+
+  \end{figure}
