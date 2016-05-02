@@ -1,59 +1,27 @@
+|NumeraciónEnArabigos|
+
 Introducción
 ############
 
-|NumeraciónEnArabigos|
 
 Antecedentes
 ************
 
-El  Programa de Alimentos y Productos Naturales (PAPN) fue creado el 13 de
-febrero de 1987 como un programa, pero rápidamente se convirtió, por iniciativa
-y esfuerzo de su dirección y sus miembros, en un centro superior de
-investigación. Este centro depende de la Facultad de Ciencias y Tecnología de la
-Universidad Mayor de San Simón (UMSS) y esta situado en el campus principal.
-Dentro de sus actividades de ciencia y tecnología en el campo agroalimentario y
-de productos naturales, la UMSS ejecuta la investigación a través de convenios y
-proyectos en diferentes ámbitos del desarrollo regional y nacional, a través del
-centro superior PAPN.
-
-De acuerdo a posibilidades y disponibilidades, se han incorporado al PAPN
-practicas sobre secado y análisis sensorial para los estudiantes de ingeniería
-industrial y alimentos, así como se han realizado diversos estudios en el secado
-de alimentos andinos y el diseño de secadores solares, convencional, deseando
-implementar 2 nuevos tipos de deshidratadores: cama fluidizada. y spray.
-
-En este sentido, para mejorar el estudio y la investigación del secado de
-alimentos es que este centro precisa la construcción de tres secadores
-experimentales automatizados que permitan obtener datos de las variables de
-secado de diferentes tipos de alimentos de la forma más rápida y precisa.
-
-El propósito de un control automático en un sistema es producir una salida
-deseada cuando las entradas del sistema son modificadas. Estas entradas se
-modifican por señales de mando, y también por perturbaciones, que se espera que
-el control automático minimice.
-
+|CitaP| modernDryingTech |Cierra|
 
 Identificación del problema
 ***************************
 
-Es complicado analizar todas las variables que intervienen en el proceso de
-deshidratado, para que, dado un producto que se desea secar; se pueda escoger el
-mejor proceso para este producto.
 
 Definición del problema
 =======================
 
-¿Como mejorar la obtención y análisis de las variables de secado, de distintos
-tipos de alimentos, por medio del control de las variables de entrada?
 
 Objetivos
 *********
 
 Objetivos General
 =================
-
-- Construir un sistema de control automático para el proceso de
-  deshidratación experimental de alimentos.
 
 
 Objetivos Específicos

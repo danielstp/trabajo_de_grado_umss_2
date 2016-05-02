@@ -88,10 +88,39 @@
 
   \label{
 
-.. |CierreEtiqueta| raw:: latex
+.. |Cierra| raw:: latex
 
   }
 
 .. |FinFigura| raw:: latex
 
   \end{figure}
+
+.. |ImprimirBibliografía| raw:: latex
+
+  \bibliography{Bibliografía}
+
+
+.. |CitaT| raw:: latex
+
+  \citet{
+
+.. |CitaP| raw:: latex
+
+  \citep{
+
+.. |CitaT*| raw:: latex
+
+  \citet*{
+
+.. |CitaP*| raw:: latex
+
+  \citep*{
+
+.. |CitaAutor| raw:: latex
+
+  \citeauthor{
+
+.. |CitaAño| raw:: latex
+
+  \citeyear{

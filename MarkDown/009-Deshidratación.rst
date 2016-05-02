@@ -62,7 +62,6 @@ diferencia entre la presión de vapor ejercida por el sólido húmedo y la presi
 parcial de vapor de la corriente gaseosa. Cuando estas dos presiones se igualan,
 se dice que el sólido y el gas están en equilibrio y el proceso de secado cesa.
 
-.. %\cite{comp_cv}
 
 
 Conclusiones

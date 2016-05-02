@@ -76,9 +76,9 @@ Caracteristicas
   :Peso: 37g
 
 |InicioFigura|  |Centrar|
-|ImagenTEX| Imágenes/Pins2560 |CierreEtiqueta|
-|Descripción| Pines del Atmega2560 |CierreEtiqueta|
-|Etiqueta| fig:pines-del-atmega2560 |CierreEtiqueta|
+|ImagenTEX| Imágenes/Pins2560 |Cierra|
+|Descripción| Pines del Atmega2560 |Cierra|
+|Etiqueta| fig:pines-del-atmega2560 |Cierra|
 |FinFigura|
 
 

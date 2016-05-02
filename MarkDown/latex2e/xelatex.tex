@@ -2,6 +2,9 @@ $head_prefix% DsTp <http://daniel.saguez.org/>
 %%% Requerimientos
 $requirements
 %%% Doc Base
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
 \usepackage{wallpaper}
 \usepackage{fancyhdr}
 %margenes
@@ -22,7 +25,7 @@ $requirements
 \fancyhead{}
 \fancyhead[LE,RO]{\slshape \rightmark}
 \fancyhead[LO,RE]{\slshape \leftmark}
-\fancyhead[C]{\DUheader}
+%\fancyhead[C]{\DUheader}
 \fancyfoot{} % reset
 \fancyfoot[C]{\DUfooter}
 \pagestyle{fancy}
@@ -98,11 +101,11 @@ $titledata
 \begin{document}
 
   \newcommand{\umsslogo}{
-    \adjustbox{valign=t,width=3cm}{\input{Imágenes/umss.tex}}
+    \adjustbox{valign=t,width=2.5cm}{\input{Imágenes/umss.tex}}
   }
 
   \newcommand{\fcytlogo}{
-    \adjustbox{valign=t,width=3cm}{\input{Imágenes/fcyt.tex}}
+    \adjustbox{valign=t,width=2.5cm}{\input{Imágenes/fcyt.tex}}
   }
 
 % \begin{titlepage}

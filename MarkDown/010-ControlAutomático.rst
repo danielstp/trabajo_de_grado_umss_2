@@ -98,12 +98,12 @@ funcionamiento fijo en los elementos de control (por ejemplo con temporizadores)
 
 |InicioFigura|
 |Centrar|
-|ImagenTEX| Imágenes/ControLazoCerrado |CierreEtiqueta|
-|Descripción| Control de Lazo Cerrado |CierreEtiqueta|
+|ImagenTEX| Imágenes/ControLazoCerrado |Cierra|
+|Descripción| Control de Lazo Cerrado |Cierra|
 para controlar el comportamiento dinámico de la referencia; se trata de
 realimentación negativa, pues al valor sensado se le resta el valor deseado
 para crear la señal de error, que es amplificada por el controlador.
-|Etiqueta| fig:ControLazoCerrado |CierreEtiqueta|
+|Etiqueta| fig:ControLazoCerrado |Cierra|
 |FinFigura|
 
 Es así que, la realimentación es un mecanismo o proceso cuya señal se mueve
@@ -154,9 +154,9 @@ gestión e intervención.
 
 |InicioFigura|
 |Centrar|
-|ImagenTEX| Imágenes/SCADA |CierreEtiqueta|
-|Descripción| SCADA |CierreEtiqueta|
-|Etiqueta| fig:SCADA |CierreEtiqueta|
+|ImagenTEX| Imágenes/SCADA |Cierra|
+|Descripción| SCADA |Cierra|
+|Etiqueta| fig:SCADA |Cierra|
 |FinFigura|
 
 
