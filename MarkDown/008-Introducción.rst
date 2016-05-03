@@ -7,11 +7,13 @@ Introducción
 Antecedentes
 ************
 
-|CitaP| modernDryingTech |Cierra|
+El proceso de secado o deshidratado, en la producción de alimentos, tiene un gran
+impacto; tanto en la producción como en el sabor y nutrición |CitaP| modernDryingTech |Cierra|
 
 Identificación del problema
 ***************************
 
+En el proceso de secado, intervienen muchas variables, que hacen dificil de 
 
 Definición del problema
 =======================
