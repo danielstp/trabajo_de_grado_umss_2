@@ -81,6 +81,12 @@ Caracteristicas
 |Etiqueta| fig:pines-del-atmega2560 |Cierra|
 |FinFigura|
 
+|InicioFigura|  |Centrar|
+|ImagenTEX| Esquemas/ArduinoMega2560Rev3 |Cierra|
+|Descripción| Esquema Arduino Mega 2560 Rev3 |Cierra|
+|Etiqueta| fig:esquemaArduinoMega2560 |Cierra|
+|FinFigura|
+
 
 .. table:: Descripción de los Pines del Atmega2560
 
