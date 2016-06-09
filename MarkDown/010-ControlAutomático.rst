@@ -178,6 +178,6 @@ sociología y biología.
 Conclusiones
 ************
 
-Se utilizara los conceptos de SCADA, pero se substituira los Controladores
+Se utilizara los conceptos de SCADA, pero se substituirá los Controladores
 Lógicos Programables(PLCs); por micro controladores(µC), tanto para reducir
 costos, como para tener mayor capacidad de cambios y mejoras.

@@ -7,10 +7,10 @@ Introducción
 Antecedentes
 ************
 
-El proceso de secado o deshidratado, en la producción de alimentos, tiene un gran
-impacto; tanto en la producción como en el sabor y nutrición; siendo una de las
-ultimas operaciones dentro del proceso que debe pasar el alimento para luego ser
-comercializado |CitaP| modernDryingTech |Cierra|.
+El proceso de secado o deshidratado, en la producción de alimentos, tiene un
+gran impacto; tanto en la producción, como en el sabor y nutrición; siendo una
+de las ultimas operaciones, dentro del proceso que debe pasar el alimento, para
+luego ser comercializado |CitaP| modernDryingTech |Cierra|.
 
 Considerando esto, se tiene interés en mejorar el proceso de deshidratado, para
 mejorar el sabor o sus características nutricionales; aumentar el tiempo de
@@ -19,9 +19,9 @@ almacenado(Preservación/Conservación), reducir costos de producción.
 Identificación del problema
 ***************************
 
-Como en el proceso de deshidratado, juegan muchas variables, hacen complicado
-poder analizar estas, y con pocas pruebas poder identificar los cambios que se
-requieren para mejorar el proceso.
+Como en el proceso de deshidratado, juegan muchas variables, que hacen
+complicado poder analizar estas, y con un número reducido de pruebas, poder
+identificar los cambios que se requieren para mejorar el proceso.
 
 Definición del problema
 =======================
@@ -58,7 +58,7 @@ Alcance
 
 El proyecto tendrá el siguiente alcance:
 
-- Sistema electrónico de control.
+- Sistema electrónico de control
 - Sistema informático de seguimiento del proceso de secado.
 - Sistema de análisis en vivo y posterior de las variables adquiridas del
   proceso.
@@ -66,21 +66,10 @@ El proyecto tendrá el siguiente alcance:
 Justificación
 *************
 
-|CitaP| DryingPhenomena |Cierra|
-La desecación de vegetales por paso de aire caliente sobre superficie húmeda,
-representa la forma mas común de secado de vegetales destinados a la
-alimentación, siendo uno de los procesos mas antiguos de conservación que se
-conocen.
-
-Mediante este método es posible preservar el color, los principios activos otras
-características de calidad que se pierden por acción de las encimas después de
-la cosecha, permitiendo de esta manera, una mejor conservación por tiempos
-relativamente largos sin perdidas de estas características.
-
-Ante la necesidad de conocer las distintas cualidades y capacidades de los
-distintos tipos de deshidratadores, y de obtener los cambios de sus variables
-durante el proceso de deshidratación de manera rápida y casi desatendida por una
-persona se ve que es conveniente la construcción de un sistema de control
-automático para cada tipo de deshidratador que se cuenta en la planta piloto.
-
-
+El secado, es un proceso de consumo de energía intensivo, juega un rol
+preponderante en muchos procesos productivos, desde la industria de alimentos
+hasta la industria de la madera, y tiene un efecto en la economía mundial. Los
+procesos de secado, consumen una parte importante del la energía producida a
+nivel mundial y por tanto se requiere prestar atención, desde el micro nivel al
+macro nivel, para hacer estas mas eficientes, efectivas respecto al costo, y
+amigables para el medio ambiente. |CitaP| DryingPhenomena |Cierra|

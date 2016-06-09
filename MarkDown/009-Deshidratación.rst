@@ -4,69 +4,40 @@ Deshidratación
 Introducción
 ************
 
-El secado o deshidratación, es un método de conservación de alimentos que
-consistente en extraer el agua de estos, lo que inhibe la proliferación de
-microorganismos y dificulta la putrefacción. El secado de alimentos mediante el
-sol y el viento para evitar su deterioro ha sido practicado desde la
-antigüedad. El agua suele eliminarse por evaporación (secado al aire, al sol,
-ahumado o al viento) pero, en el caso de la liofilización, los alimentos se
-congelan en primer lugar y luego se elimina el agua por sublimación.
+El secado es un proceso industrial clave y de gran importancia práctica, en la
+industria química y farmacéutica, agricultura y procesamiento de alimentos, la
+pulpa y el papel, la madera y el procesamiento de minerales, preparación de
+combustibles sólidos (por ejemplo, la biomasa o el secado de carbón). Consiste
+en un proceso de transferencia de masa con el objetivo de la eliminación de un
+disolvente - agua en general (o humedad) - a partir de un sólido, líquido, o
+semi-sólido (Un líquido muy viscoso). Desde allí, el secado es un proceso
+de separación impulsado térmicamente y normalmente se produce por la
+evaporación del disolvente (la humedad) o por sublimación o por un
+super-proceso crítico que evita límite sólido-líquido, o por ósmosis inversa.
 
-Las bacterias, levaduras y hongos necesitan agua en el alimento para crecer. El
-secado les impide efectivamente sobrevivir en él.
-
+El proceso de secado es reconocido como uno de los procesos intensivos de energía más entre los
+tecnologías de separación. Por ejemplo, de acuerdo con la energética (2006) secado en Mujumdar
+América del Norte es sólo responsable de ~ 15% el consumo de energía. Se requiere de una fuente de calor y
+a veces se requiere el mantenimiento de vacío profundo para la eliminación de la humedad eficaz. El secado se puede
+también se puede aplicar en algunos casos seguido de la adición de calor y eliminación de la humedad por sublimación.
+Además, el método puede ser integrado con otros tipos de tecnologías de separación, tales como
+drenaje centrífuga que requiere la aplicación de fuerzas centrífugas fuertes.
+En el sector de secado, que tiene como objetivo hacer que los procesos de secado más eficiente, más rentable,
+más benigna con el medio ambiente, y más sostenible. Por lo tanto, esto requiere métodos de optimización
+para ser aplicado a estos procesos. Además, hay gran abanico de materiales que van desde
+gruesas losas a nano-polvos que requieren métodos específicos de secado.
+La comprensión de los procesos de secado requiere la aplicación de métodos de análisis de termo
+la dinámica, la ciencia de calor, transferencia de masa y cantidad de movimiento, psicométricas, medios porosos, materiales,
+y la cinética veces químicas en total. Algunos procesos específicos que se producen durante el secado
+y debe ser considerado en el análisis son cristalización y transición alotrópica o contracción,
+cambio de textura, porosidad cambio, y la fractura. El secado es un proceso transitorio; por lo tanto, el cambio de
 
 Proceso de Deshidratación de Alimentos
 **************************************
 
-La desecación de alimentos por paso de aire caliente sobre superficie húmeda,
-representa la forma mas común de secado de vegetales destinados a la
-alimentación, siendo uno de los procesos mas antiguos de conservación que se
-conocen.
-
-Mediante este método es posible preservar el color, los principios activos otras
-características de calidad que se pierden por acción de las encimas después de
-la cosecha, permitiendo de esta manera, una mejor conservación por tiempos
-relativamente largos sin perdidas de estas características.
-
-A través del secado, el agua contenida en el interior de la especie vegetal es
-reducida, bajo ciertas condiciones de temperatura y humedad hasta cierto grado,
-el cual permite almacenar sin que exista deterioro. En el proceso de secado, el
-agua es removida desde el interior y desde los espacios celulares del vegetal,
-al principio la perdida de agua es rápida pero a medida que el vegetal se seca
-el agua se remueve mas lentamente.
-
-Para un buen almacenamiento el secado debe realizarse hasta que el contenido de
-humedad sea del 11% al 15%, para el follaje y del 10% al 12% para las semillas
-y/o frutos.
-
-El exceso de humedad contenida por los materiales puede eliminarse por métodos
-mecánicos (sedimentación, filtración, centrifugación). Sin embargo, la
-eliminación más completa de la humedad se obtiene por evaporación y eliminación
-de los vapores formados, es decir, mediante el secado térmico, ya sea empleando
-una corriente gaseosa o sin la ayuda del gas para extraer el vapor(Knoule, 1968).
-
-Esta operación se utiliza ampliamente en la tecnología química y es muy común
-que sea la última operación en la producción precedente a la salida del producto
-resultante(Kasatkin, 1985)(Treybal, 1965). Es evidente que la eliminación de
-agua o en general de líquidos existentes en sólidos es más económica por acción
-mecánica que por acción térmica. La dificultad de los medios mecánicos surge
-cuando los productos finales y gran número de productos intermedios deben
-cumplir especificaciones rigurosas en cuanto a la humedad final. Habitualmente
-una centrífuga trabajando con grandes cargas de sólidos húmedos, dejará
-humedades en torno al 10-20%, aunque en casos excepcionales como la sal común o
-cloruro sódico se puede alcanzar el 1%. La operación de secado es una operación
-de transferencia de masa de contacto gas-sólido, donde la humedad contenida en
-el sólido, se transfiere pro evaporación, hacia la fase gaseosa, en base a la
-diferencia entre la presión de vapor ejercida por el sólido húmedo y la presión
-parcial de vapor de la corriente gaseosa. Cuando estas dos presiones se igualan,
-se dice que el sólido y el gas están en equilibrio y el proceso de secado cesa.
 
 
 
 Conclusiones
 ************
 
-Se usara el sistema de secado por el paso de aire caliente, por ser el mas común
-y con un conjunto de variables que hacen necesario el uso de un sistema
-informático para su análisis.

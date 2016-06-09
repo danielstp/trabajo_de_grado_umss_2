@@ -82,7 +82,10 @@ Caracteristicas
 |FinFigura|
 
 |InicioFigura|  |Centrar|
-|ImagenTEX| Esquemas/ArduinoMega2560Rev3 |Cierra|
+
+.. image:: Esquemas/ArduinoMega2560Rev3.png
+  :width: 100%
+
 |Descripción| Esquema Arduino Mega 2560 Rev3 |Cierra|
 |Etiqueta| fig:esquemaArduinoMega2560 |Cierra|
 |FinFigura|
