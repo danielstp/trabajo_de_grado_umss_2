@@ -15,7 +15,8 @@ de separación impulsado térmicamente y normalmente se produce por la
 evaporación del disolvente (la humedad) o por sublimación o por un
 super-proceso crítico que evita límite sólido-líquido, o por ósmosis inversa.
 
-El proceso de secado es reconocido como uno de los procesos intensivos de energía más entre los
+El proceso de secado es reconocido como uno de los procesos intensivos de energía
+más entre los
 tecnologías de separación. Por ejemplo, de acuerdo con la energética (2006) secado en Mujumdar
 América del Norte es sólo responsable de ~ 15% el consumo de energía. Se requiere de una fuente de calor y
 a veces se requiere el mantenimiento de vacío profundo para la eliminación de la humedad eficaz. El secado se puede
@@ -32,9 +33,21 @@ y la cinética veces químicas en total. Algunos procesos específicos que se pr
 y debe ser considerado en el análisis son cristalización y transición alotrópica o contracción,
 cambio de textura, porosidad cambio, y la fractura. El secado es un proceso transitorio; por lo tanto, el cambio de
 
+|InicioFigura|  |Centrar|
+|ImagenTEX| Imágenes/Generados/ClasificaciónEquiposSecado.tex |Cierra|
+|Descripción| Criterios de clasificación de los equipos y sistemas de secado |Cierra|
+|Etiqueta| fig:ClasificaciónEquiposSecado |Cierra|
+|FinFigura|
+
+
 Proceso de Deshidratación de Alimentos
 **************************************
 
+|InicioFigura|  |Centrar|
+|ImagenTEX| Imágenes/Generados/CuadroSeveridadCalidad.tex |Cierra|
+|Descripción| Cuadro Calidad de Deshidratación |Cierra|
+|Etiqueta| fig:CalidadDeshidratación |Cierra|
+|FinFigura|
 
 
 

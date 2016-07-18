@@ -10,6 +10,8 @@ sed -i 's/... continued on next page/... Continua en la siguiente página/g' $no
 sed -i 's/... continued/... continuación/g' $nombreArchivo.tex
 sed -i 's/\\setcounter{secnumdepth}{0}/\\setcounter{secnumdepth}{3}/g' $nombreArchivo.tex
 
-latexmk -xelatex $nombreArchivo.tex
+#/nonstopmode/scrollmode/errorstopmode)"
+latexmk -latexoption="-synctex=1 -interaction=batchmode -shell-escape"  -xelatex $nombreArchivo.tex
+#latexmk -xelatex $nombreArchivo.tex
 
 rst2s5 --current-slide --section-numbering exposición.rst exposición.html

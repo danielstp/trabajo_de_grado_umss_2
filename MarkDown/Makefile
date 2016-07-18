@@ -5,6 +5,16 @@ XETEXCONF=--section-numbering --template=latex2e/xelatex.tex --documentclass=boo
 GV=*.gv
 SVG=*.svg
 
+
+SUBDIRS = gv Imágenes/svg
+
+.PHONY: subdirs $(SUBDIRS)
+
+subdirs: $(SUBDIRS)
+
+$(SUBDIRS):
+	$(MAKE) -C $@
+
 # see http://tex.stackexchange.com/questions/40738/how-to-properly-make-a-latex-project
 
 # You want latexmk to *always* run, because make does not have all the info.

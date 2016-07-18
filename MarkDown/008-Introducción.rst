@@ -32,7 +32,7 @@ intervienen en el proceso de secado?
 Objetivos
 *********
 
-Objetivos General
+Objetivo General
 =================
 
 - Desarrollar un sistema Electrónico/Informático de control automático para

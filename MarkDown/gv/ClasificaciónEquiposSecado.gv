@@ -1,23 +1,27 @@
 
-graph Clasificacion {
-rankdir=LR;
-node[shape="box",margin="0", color="blue", width=auto, height=auto, fontname="Liberation Sans Narrow"];
-"Criterio de Clasificación" -- "Agente de secado" -- "Aire"
-"Criterio de Clasificación" -- "Continuidad del Proceso" -- "Por Lote"
-"Criterio de Clasificación" -- "Método de Transferencia de Calor" -- "Directo"
-"Criterio de Clasificación" -- "Características de Manejo" -- "Bandeja"
-"Agente de secado" -- "Vapor"
-"Agente de secado" -- "Otros"
-"Continuidad del Proceso" -- "Flujo Continuo"
-"Método de Transferencia de Calor" -- "Indirecto"
-"Método de Transferencia de Calor" -- "A través de Campos Magnéticos" -- "Infrarrojo"
-"A través de Campos Magnéticos" -- "Dieléctrico"
-"Características de Manejo" -- "De Paso"
-"Características de Manejo" -- "Túnel"
-"Características de Manejo" -- "Rotatorio"
-"Características de Manejo" -- "Agitado o Vibratorio"
-"Características de Manejo" -- "Dispersión"
-"Características de Manejo" -- "Gravedad"
-{ rank=same  }
+digraph Clasificacion {
+  rankdir=LR;
+  node[shape="record", overlap="true", color="blue",margin="0.05", width=full, height=0.2, fontname="Linux Libertine O"];
+  graph [spline=curved, overlap=true];
+  spline=curved;
+  ranksep = "0.3 equally";
+
+  "Criterio de Clasificación" -> "Agente de secado" -> "Aire"
+  "Criterio de Clasificación" -> "Continuidad del Proceso" -> "Por Lote"
+  "Criterio de Clasificación" -> "Método de Transferencia de Calor" -> "Directo"
+  "Criterio de Clasificación" -> "Características de Manejo" -> "Bandeja"
+  "Agente de secado" -> "Vapor"
+  "Agente de secado" -> "Otros"
+  "Continuidad del Proceso" -> "Flujo Continuo"
+  "Método de Transferencia de Calor" -> "Indirecto"
+  "Método de Transferencia de Calor" -> "A través de Campos Magnéticos" -> "Infrarrojo"
+  "A través de Campos Magnéticos" -> "Dieléctrico"
+  "Características de Manejo" -> "De Paso"
+  "Características de Manejo" -> "Túnel"
+  "Características de Manejo" -> "Rotatorio"
+  "Características de Manejo" -> "Agitado o Vibratorio"
+  "Características de Manejo" -> "Dispersión"
+  "Características de Manejo" -> "Gravedad"
+  { rank=same  }
 
 }

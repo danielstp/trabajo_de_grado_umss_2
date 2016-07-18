@@ -1,11 +1,12 @@
-TYPE=tex
+TYPE=svg
+DESTINO=../Imágenes/Generados/
 SRC=$(wildcard *.gv)
 OUT=$(patsubst %.gv, %.$(TYPE), $(SRC))
 
 all: $(OUT)
 
 %.$(TYPE): %.gv
-	dot2tex $^ -o ../Generados/$@
+	dot $^ -T$(TYPE) -o $(DESTINO)$@
 
 clean :
 	rm *.$(TYPE)
