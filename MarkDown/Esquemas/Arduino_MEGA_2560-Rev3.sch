@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21456,6 +21456,8 @@ Source: RS Component / Phycomp</description>
 <text x="219.71" y="41.91" size="1.6764" layer="91">pwm</text>
 <text x="219.71" y="39.37" size="1.6764" layer="91">pwm</text>
 <text x="219.71" y="36.83" size="1.6764" layer="91">pwm</text>
+<text x="219.71" y="31.75" size="1.6764" layer="91">pwm</text>
+<text x="219.71" y="29.21" size="1.6764" layer="91">pwm</text>
 <text x="500.38" y="48.26" size="1.778" layer="91" rot="R90">USB boot En</text>
 <text x="134.62" y="185.42" size="2.54" layer="91" ratio="20">TM</text>
 </plain>
