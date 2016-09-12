@@ -7,3 +7,4 @@ ui/
 *.blg
 *.run.xml
 *.synctex.gz
+Imágenes/Generados/*.pdf_tex

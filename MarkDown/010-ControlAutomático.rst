@@ -98,7 +98,7 @@ funcionamiento fijo en los elementos de control (por ejemplo con temporizadores)
 
 |InicioFigura|
 |Centrar|
-|ImagenTEX| Imágenes/ControLazoCerrado |Cierra|
+|ImagenTEX| Imágenes/Generados/ControLazoCerrado |Cierra|
 |Descripción| Control de Lazo Cerrado |Cierra|
 para controlar el comportamiento dinámico de la referencia; se trata de
 realimentación negativa, pues al valor sensado se le resta el valor deseado
@@ -154,7 +154,7 @@ gestión e intervención.
 
 |InicioFigura|
 |Centrar|
-|ImagenTEX| Imágenes/SCADA |Cierra|
+|ImagenTEX| Imágenes/Generados/SCADA |Cierra|
 |Descripción| SCADA |Cierra|
 |Etiqueta| fig:SCADA |Cierra|
 |FinFigura|

@@ -27,7 +27,7 @@ Genera(){
   opcionesDoc=$tamPapel,$tamLetra
   plantilla=latex2e/xelatex.tex
   OPCIONES="--template=$plantilla --documentclass=$tipoDocumento --documentoptions=$opcionesDoc --use-latex-docinfo --use-latex-citations --figure-citations --section-subtitles --smart-quotes=yes -r 3 --section-numbering --compound-enumerators -l $idioma"
-  rst2xetex $OPCIONES $nombreArchivo.rst $nombreArchivo.tex
+  rst2xetex $OPCIONES $nombreArchivo.rst $nombreArchivo.tex > $nombreArchivo.rst.log
   #sed -i $generadoPor  $nombreArchivo.tex
   sed -i 's/{[ ]*/{/g' $nombreArchivo.tex
   sed -i 's/[ ]*}/}/g' $nombreArchivo.tex
