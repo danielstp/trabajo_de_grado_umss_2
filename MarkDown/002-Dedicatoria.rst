@@ -1,10 +1,6 @@
 
-.. |DedicatoriaT| raw:: latex
 
-  \addcontentsline{toc}{chapter}{Dedicatoria}
-  \chapter*{}
-
-|DedicatoriaT|
+:titulosinnumerar:`Dedicatoria`
 
 |InicioTodoDerecha|
 

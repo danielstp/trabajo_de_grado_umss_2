@@ -1,4 +1,4 @@
-.. |caratula| raw:: latex
+.. raw:: latex
 
   % Carátula:
   \makeatletter
@@ -56,4 +56,3 @@
 
   \end{titlepage}
 
-|caratula|

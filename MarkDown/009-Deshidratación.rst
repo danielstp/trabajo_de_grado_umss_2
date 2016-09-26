@@ -16,12 +16,10 @@ separación impulsado térmicamente y normalmente se produce por la evaporación
 disolvente (la humedad) o por sublimación o por un proceso crítico que evita
 el límite sólido-líquido, o por ósmosis inversa.
 
-El proceso de secado, de entre las tecnologías de separación, es uno de los procesos que más energía consume, de entre
-las tecnologías de separación.
-
-
-Por ejemplo, de acuerdo con la energética (2006)
-secado en Mujumdar América del Norte es sólo responsable de ~ 15% el consumo de energía. Se requiere de una fuente de calor y
+El proceso de secado, de entre las tecnologías de separación, es uno de los
+procesos que más energía consume, de entre las tecnologías de separación. Por
+ejemplo, de acuerdo con :cita:`modernDryingTech` en América del Norte los
+procesos de desecado son responsables del ~15% el consumo de energía. Se requiere de una fuente de calor y
 a veces se requiere el mantenimiento de vacío profundo para la eliminación de la humedad eficaz. El secado se puede
 también se puede aplicar en algunos casos seguido de la adición de calor y eliminación de la humedad por sublimación.
 Además, el método puede ser integrado con otros tipos de tecnologías de separación, tales como
@@ -36,28 +34,22 @@ y la cinética veces químicas en total. Algunos procesos específicos que se pr
 y debe ser considerado en el análisis son cristalización y transición alotrópica o contracción,
 cambio de textura, porosidad cambio, y la fractura. El secado es un proceso transitorio; por lo tanto, el cambio de
 
-|InicioFigura|  |Centrar|
-|ImagenTEX| Imágenes/Generados/ClasificaciónEquiposSecado.tex |Cierra|
-|Descripción| Criterios de clasificación de los equipos y sistemas de secado |Cierra|
-|Etiqueta| fig:ClasificaciónEquiposSecado |Cierra|
-|FinFigura|
+
+:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.tex|,|Criterios de clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
+
+`introduccion`_
+`fig:clasificacion-equipos-secado`_
+`Deshidratación`_
+`lazo-abierto-y-cerrado`_
 
 
 Proceso de Deshidratación de Alimentos
 **************************************
 
-|InicioFigura|  |Centrar|
-|ImagenTEX| Imágenes/Generados/CuadroSeveridadCalidad.tex |Cierra|
-|Descripción| Cuadro Calidad de Deshidratación |Cierra|
-|Etiqueta| fig:CalidadDeshidratación |Cierra|
-|FinFigura|
+:imagentex:`Imágenes/Generados/CuadroSeveridadCalidad.tex|,|Cuadro Calidad de Deshidratación|,|calidad-deshidratacion`
 
-|InicioFigura|  |Centrar|
-|ImagenTEX| Imágenes/Generados/EstadosTemperaturaPresión.tex |Cierra|
-|Descripción| Diagrama de fases de estados por temperatura y presión |Cierra|
-|Etiqueta| fig:DiagramaEstados |Cierra|
-|FinFigura|
 
+:imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.tex|,|Diagrama de fases de estados por temperatura y presión|,|diagrama-estados`
 
 
 Conclusiones

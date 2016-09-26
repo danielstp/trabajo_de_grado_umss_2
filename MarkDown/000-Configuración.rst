@@ -101,26 +101,29 @@
   \bibliography{Bibliografía}
 
 
-.. |CitaT| raw:: latex
+.. role:: titulosinnumerar
 
-  \citet{
+.. raw:: latex
 
-.. |CitaP| raw:: latex
+  \providecommand*\DUroletitulosinnumerar[1]{
+    \chapter*{}
+    \addcontentsline{toc}{chapter}{#1}
+  }
 
-  \citep{
+.. role:: cita
 
-.. |CitaT*| raw:: latex
+.. raw:: latex
 
-  \citet*{
+   \providecommand*\DUrolecita[1]{\citet*{#1}}
 
-.. |CitaP*| raw:: latex
+.. role:: imagentex
 
-  \citep*{
+.. raw:: latex
 
-.. |CitaAutor| raw:: latex
-
-  \citeauthor{
-
-.. |CitaAño| raw:: latex
-
-  \citeyear{
+  \newcommand{\imagentex}[3]{
+    \begin{figure}[ht]\centering
+      \input{#1}
+      \caption{#2}
+      \label{fig:#3}
+    \end{figure}
+  }

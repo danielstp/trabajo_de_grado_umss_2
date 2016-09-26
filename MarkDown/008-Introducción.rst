@@ -10,7 +10,7 @@ Antecedentes
 El proceso de secado o deshidratado, en la producción de alimentos, tiene un
 gran impacto; tanto en la producción, como en el sabor y nutrición; siendo una
 de las ultimas operaciones, dentro del proceso que debe pasar el alimento, para
-luego ser comercializado |CitaP| modernDryingTech |Cierra|.
+luego ser comercializado :cita:`modernDryingTech`.
 
 Considerando esto, se tiene interés en mejorar el proceso de deshidratado, para
 mejorar el sabor o sus características nutricionales; aumentar el tiempo de
@@ -72,4 +72,4 @@ hasta la industria de la madera, y tiene un efecto en la economía mundial. Los
 procesos de secado, consumen una parte importante del la energía producida a
 nivel mundial y por tanto se requiere prestar atención, desde el micro nivel al
 macro nivel, para hacer estas mas eficientes, efectivas respecto al costo, y
-amigables para el medio ambiente. |CitaP| DryingPhenomena |Cierra|
+amigables para el medio ambiente. :cita:`DryingPhenomena`

@@ -1,10 +1,5 @@
 
-.. |AgradecimientosT| raw:: latex
-
-  \addcontentsline{toc}{chapter}{Agradecimientos}
-  \chapter*{}
-
-|AgradecimientosT|
+:titulosinnumerar:`Agradecimientos`
 
 |InicioTodoDerecha|
 
