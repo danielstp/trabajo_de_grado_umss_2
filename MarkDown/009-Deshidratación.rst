@@ -19,39 +19,98 @@ el límite sólido-líquido, o por ósmosis inversa.
 El proceso de secado, de entre las tecnologías de separación, es uno de los
 procesos que más energía consume, de entre las tecnologías de separación. Por
 ejemplo, de acuerdo con :cita:`modernDryingTech` en América del Norte los
-procesos de desecado son responsables del ~15% el consumo de energía. Se requiere de una fuente de calor y
-a veces se requiere el mantenimiento de vacío profundo para la eliminación de la humedad eficaz. El secado se puede
-también se puede aplicar en algunos casos seguido de la adición de calor y eliminación de la humedad por sublimación.
-Además, el método puede ser integrado con otros tipos de tecnologías de separación, tales como
-drenaje centrífuga que requiere la aplicación de fuerzas centrífugas fuertes.
-En el sector de secado, que tiene como objetivo hacer que los procesos de secado más eficiente, más rentable,
-más benigna con el medio ambiente, y más sostenible. Por lo tanto, esto requiere métodos de optimización
-para ser aplicado a estos procesos. Además, hay gran abanico de materiales que van desde
-gruesas losas a nano-polvos que requieren métodos específicos de secado.
-La comprensión de los procesos de secado requiere la aplicación de métodos de análisis de termo
-la dinámica, la ciencia de calor, transferencia de masa y cantidad de movimiento, psicométricas, medios porosos, materiales,
-y la cinética veces químicas en total. Algunos procesos específicos que se producen durante el secado
-y debe ser considerado en el análisis son cristalización y transición alotrópica o contracción,
-cambio de textura, porosidad cambio, y la fractura. El secado es un proceso transitorio; por lo tanto, el cambio de
+procesos de desecado son responsables del ~15% el consumo de energía. Se requiere
+de una fuente de calor y a veces se requiere el mantenimiento de vacío profundo
+para la eliminación eficaz de la humedad. El secado se puede también aplicar en
+algunos casos seguido de la adición de calor y eliminación de la humedad por
+sublimación.
 
+Además, puede ser integrado con otros tipos de tecnologías de separación, tales
+como drenaje por centrifugado que requiere la aplicación de fuerzas centrífugas
+fuertes. En el sector de secado, que tiene como objetivo hacer que los procesos
+de secado sean más eficientes, por ende, más rentable, más benigna con el medio
+ambiente, y más sostenible. Por lo tanto, esto requiere métodos de optimización
+para ser aplicado a estos procesos.
 
-:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.tex|,|Criterios de clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
+Clasificación
+*************
 
-`introduccion`_
-`fig:clasificacion-equipos-secado`_
-`Deshidratación`_
-`lazo-abierto-y-cerrado`_
+Se tienen cuatro criterios de clasificación: por agente de secado, continuidad
+de proceso, método de transferencia de calor y características de manejo, de
+:cita:`DryingPhenomena`.
+
+El la figura :t:`fig:clasificacion-equipos-secado` se puede ver de manera gráfica.
+
+- agente de secado
+
+  - Aire
+  - Vapor
+  - Otros
+
+- continuidad de proceso
+
+  - Por lote
+  - Flujo continuo
+
+- método de transferencia de calor
+
+  - Directo
+  - Indirecto
+  - A través de campos magnéticos
+
+    - Infrarrojo
+    - Dieléctrico
+
+- características de manejo
+
+  - Bandeja
+  - De paso
+  - Túnel
+  - Rotatorio
+  - Agitado o Vibratorio
+  - Dispersión
+  - Gravedad
+
+:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.tex|,|Criterios de
+clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
 
 
 Proceso de Deshidratación de Alimentos
 **************************************
 
-:imagentex:`Imágenes/Generados/CuadroSeveridadCalidad.tex|,|Cuadro Calidad de Deshidratación|,|calidad-deshidratacion`
+El método de secar al sol, simplemente colocando el producto al piso; trae
+varios problemas, es relativamente lento, susceptible a la infestación de
+insectos, reacciones enzimáticas, el crecimiento de microorganismos y la
+producción de micotoxinas causan una reducción significativa de la calidad del
+producto. Al no ser uniforme, se consigue un secado insuficiente, que conduce a
+un deterioro del producto durante el almacenamiento. Se producen graves
+problemas de secado, especialmente en las regiones tropicales húmedas, donde
+algunos cultivos requieren un posterior secado durante la época de lluvias. Con
+el fin de asegurar el suministro continuo de alimentos a la población en
+crecimiento, y para permitir a los agricultores producir productos de alta
+calidad, el desarrollo de métodos eficientes de secado es una necesidad urgente.
+De :cita:`DryingPhenomena`.
+
+En el proceso de secado por aire forzado, que es bastante simple de fabricar
+y por ende, el más común en nuestro medio. Para tener un producto con buenos
+valores nutricionales, se debe proceder con cuidado y controlando la temperatura
+y el flujo de aire; y llegar a un resultado inocuo y agradable, como se puede ver
+en la figura :t:`fig:calidad-deshidratacion`.
 
 
-:imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.tex|,|Diagrama de fases de estados por temperatura y presión|,|diagrama-estados`
+:imagentex:`Imágenes/Generados/CuadroSeveridadCalidad.tex|,|Cuadro Calidad de
+Deshidratación|,|calidad-deshidratacion`
+
+
+
+.. :imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.tex|,|Diagrama de fases
+.. de estados por temperatura y presión|,|diagrama-estados`
+
 
 
 Conclusiones
 ************
 
+Para la realización de este proyecto, se escogió el equipo de deshidratación por
+lotes, de aire forzado, principalmente por su facilidad de construcción y los
+principios utilizados en este, son los mismos que en los otros tipos de equipos.

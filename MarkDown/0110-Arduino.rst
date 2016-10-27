@@ -21,7 +21,7 @@ cambios en las dos plataformas. Eso sí, los microcontroladores CortexM3 usan
 3,3V, a diferencia de la mayoría de las placas con AVR, que generalmente usan
 5V. Sin embargo, ya anteriormente se lanzaron placas Arduino con Atmel AVR a
 3,3V como la Arduino Fio y existen compatibles de Arduino Nano y Pro como
-Meduino en que se puede conmutar el voltaje.
+Meduino en que se puede conmutar el voltaje. Ver :cita:`practicalArduino`
 
 De la placa Arduino, puede tomar información del entorno a través de sus
 entradas analógicas y digitales, puede controlar luces, motores y otros
@@ -39,7 +39,7 @@ puede ser conectado a software tal como Adobe Flash, Processing, Max/MSP, Pure
 Data. Una tendencia tecnológica es utilizar Arduino como tarjeta de adquisición
 de datos desarrollando interfaces en software como JAVA, Visual Basic y LabVIEW
 6 . Las placas se pueden montar a mano o adquirirse. El entorno de desarrollo
-integrado libre se puede descargar gratuitamente.
+integrado libre se puede descargar gratuitamente. Ver :cita:`arduinoQuickStart`
 
 Arduino Mega 2560
 =================
