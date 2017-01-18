@@ -17,7 +17,6 @@
 .. include:: 010-ControlAutomático.rst
 .. include:: 011-Herramientas.rst
 .. include:: 012-Metodologia.rst
-.. include:: 013-SprintA.rst
 .. include:: 014-Conclusiones.rst
 .. include:: 015-Bibliografía.rst
 .. include:: 100-Anexo01-CodigoFuente.rst

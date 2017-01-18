@@ -26,34 +26,40 @@ Objetivos Específicos
 
 Los objetivos a cumplir durante el desarrollo del proyecto son:
 
+.. table:: Objetivo general.
 
-+------------------------------------------------------------------------------+
-| Desarrollar un sistema Electrónico/Informático de control automático para    |
-|  el proceso de deshidratado de alimentos, en un entorno experimental.        |
-+------------------------------------------------------------------------------+
+ +------------------------------------------------------------------------------+
+ | Desarrollar un sistema Electrónico/Informático de control automático para    |
+ |  el proceso de deshidratado de alimentos, en un entorno experimental.        |
+ +------------------------------------------------------------------------------+
 
-+----+-------------------------------------------------------------+-----------+
-| N° | Características                                             | Prioridad |
-+====+=============================================================+===========+
-| 1  | Seleccionar el dispositivo de control.                      |  Normal   |
-+----+-------------------------------------------------------------+-----------+
-| 2  | Desarrollar el modulo de intercomunicación con el           |  Normal   |
-|    | dispositivo de control.                                     |           |
-+----+-------------------------------------------------------------+-----------+
-| 3  | Seleccionar sensores, controladores y actuadores a utilizar.|  Baja     |
-+----+-------------------------------------------------------------+-----------+
-| 4  | Desarrollar el modulo para funcionamiento básico del        |  Normal   |
-|    | microcontrolador.                                           |           |
-+----+-------------------------------------------------------------+-----------+
-| 5  | Diseñar el modelo unificado el sistema electrónico y el     |  Normal   |
-|    | sistema de análisis.                                        |           |
-+----+-------------------------------------------------------------+-----------+
-| 6  | Desarrollar el modulo de control supervisado.               |  Alta     |
-+----+-------------------------------------------------------------+-----------+
-| 7  | Desarrollar el modulo de cambio de parámetros de control.   |  Normal   |
-+----+-------------------------------------------------------------+-----------+
-| 8  | Implementar el control automático.                          |  Alta     |
-+----+-------------------------------------------------------------+-----------+
+
+.. table:: Historias de usuario.
+
++--+---------------------------------------------------+-----------+------------+
+|N°| Características                                   | Prioridad | Estimación |
++==+===================================================+===========+============+
+|1 | Seleccionar el dispositivo de control.            |  Normal   |  3         |
++--+---------------------------------------------------+-----------+------------+
+|2 | Desarrollar el modulo de intercomunicación con el |  Normal   |  3         |
+|  | dispositivo de control.                           |           |            |
++--+---------------------------------------------------+-----------+------------+
+|3 | Seleccionar sensores, controladores y actuadores  |  Baja     |  1         |
+|  | a utilizar.                                       |           |            |
++--+---------------------------------------------------+-----------+------------+
+|4 | Desarrollar el modulo para funcionamiento básico  |  Normal   |  8         |
+|  | del microcontrolador.                             |           |            |
++--+---------------------------------------------------+-----------+------------+
+|5 | Diseñar el modelo unificado el sistema            |  Normal   |  13        |
+|  | electrónico y el sistema de análisis.             |           |            |
++--+---------------------------------------------------+-----------+------------+
+|6 | Desarrollar el modulo de control supervisado.     |  Normal   |  21        |
++--+---------------------------------------------------+-----------+------------+
+|7 | Desarrollar el modulo de cambio de parámetros de  |  Alta     |  21        |
+|  | control.                                          |           |            |
++--+---------------------------------------------------+-----------+------------+
+|8 | Implementar el control automático.                |  Alta     |  13        |
++--+---------------------------------------------------+-----------+------------+
 
 
 Estimación de historias de usuario
@@ -66,3 +72,4 @@ Como se notara es una serie de Fibonacci.
 Ciclo Inicial(Sprint A)
 ***********************
 
+.. include:: 013-SprintA.rst

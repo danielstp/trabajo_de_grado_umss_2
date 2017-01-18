@@ -9,8 +9,10 @@
 .. |0copy| unicode:: 0xA9 .. copyright sign
    :ltrim:
 
-.. |date| date::
-.. |time| date:: %H:%M
+.. |fecha| date::
+.. |mes| date:: %m
+.. |año| date:: %y
+.. |hora| date:: %H:%M
 
 .. |page| raw:: latex
 

@@ -50,9 +50,5 @@
 
     \vfill
 
-    %\hrule
-    %\vspace{0.2cm}
-    %\noindent\small{Trabajo de Grado \hfill}
-
   \end{titlepage}
 
