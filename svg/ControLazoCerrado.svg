@@ -15,7 +15,7 @@
    height="126"
    viewBox="0 0 394 96"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="ControLazoCerrado.svg">
   <metadata
      id="metadata5468">
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,22 +38,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1362"
-     inkscape:window-height="729"
+     inkscape:window-width="1364"
+     inkscape:window-height="726"
      id="namedview5466"
      showgrid="false"
      inkscape:snap-text-baseline="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="2.394"
-     inkscape:cx="250"
+     inkscape:zoom="2"
+     inkscape:cx="281.25"
      inkscape:cy="79.708438"
      inkscape:window-x="0"
-     inkscape:window-y="18"
-     inkscape:window-maximized="0"
+     inkscape:window-y="1044"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <sodipodi:guide
-       position="222.83876,77.654455"
+       position="418.034,74.666667"
        orientation="0,1"
        id="guide5611" />
     <sodipodi:guide
@@ -421,42 +421,48 @@
        width="394"
        y="82.792969"
        x="202.69922"
-       id="use161" />
+       id="use161"
+       style="" />
     <use
        xlink:href="#glyph0-7"
        height="96"
        width="394"
        y="82.792969"
        x="209.81058"
-       id="use163" />
+       id="use163"
+       style="" />
     <use
        xlink:href="#glyph0-3"
        height="96"
        width="394"
        y="82.792969"
        x="216.70312"
-       id="use165" />
+       id="use165"
+       style="" />
     <use
        xlink:href="#glyph0-9"
        height="96"
        width="394"
        y="82.792969"
        x="223.80354"
-       id="use167" />
+       id="use167"
+       style="" />
     <use
        xlink:href="#glyph0-2"
        height="96"
        width="394"
        y="82.792969"
        x="229.64034"
-       id="use169" />
+       id="use169"
+       style="" />
     <use
        xlink:href="#glyph0-5"
        height="96"
        width="394"
        y="82.792969"
        x="236.4946"
-       id="use171" />
+       id="use171"
+       style="" />
   </g>
   <path
      inkscape:connector-curvature="0"
@@ -509,82 +515,75 @@
      d="m 242.12577,25.823783 -5.88716,2.949149 1.47179,-2.949149 -1.47179,-2.949148 5.88716,2.949148 z" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:31.52000046px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:12.9452641px;line-height:125%;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Times New Roman, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
      x="0.98747069"
      y="21.938068"
-     id="text5585"
-     sodipodi:linespacing="125%"><tspan
+     id="text5585"><tspan
        sodipodi:role="line"
        id="tspan5587"
        x="0.98747069"
        y="21.938068"
-       style="font-size:9.85000038px">Referencia</tspan></text>
+       style="font-size:12.9452641px;-inkscape-font-specification:'Times New Roman, Normal';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">Referencia</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.85000038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.94526386px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="72.743523"
-     y="9.7592878"
-     id="text5589"
-     sodipodi:linespacing="125%"><tspan
+     y="20.791288"
+     id="text5589"><tspan
        sodipodi:role="line"
        id="tspan5591"
        x="72.743523"
-       y="9.7592878">Error de</tspan><tspan
+       y="20.791288">Error de</tspan><tspan
        sodipodi:role="line"
        x="72.743523"
-       y="22.071787"
+       y="36.97287"
        id="tspan5593">medición</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.85000038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.94526386px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="196.50627"
-     y="17.32988"
-     id="text5595"
-     sodipodi:linespacing="125%"><tspan
+     y="20.48188"
+     id="text5595"><tspan
        sodipodi:role="line"
        id="tspan5597"
        x="196.50627"
-       y="17.32988">Entrada</tspan></text>
+       y="20.48188">Entrada</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.85000038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="126.396"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.94526386px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="124.82001"
      y="28.850346"
-     id="text5599"
-     sodipodi:linespacing="125%"><tspan
+     id="text5599"><tspan
        sodipodi:role="line"
        id="tspan5601"
-       x="126.396"
+       x="124.82001"
        y="28.850346">Controlador</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.85000038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:12.9452641px;line-height:125%;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Times New Roman, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
      x="257.84912"
      y="28.850346"
-     id="text5603"
-     sodipodi:linespacing="125%"><tspan
+     id="text5603"><tspan
        sodipodi:role="line"
        id="tspan5605"
        x="257.84912"
        y="28.850346">Sistema</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.85000038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.94526386px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="329.48538"
-     y="17.329878"
-     id="text5607"
-     sodipodi:linespacing="125%"><tspan
+     y="20.481878"
+     id="text5607"><tspan
        sodipodi:role="line"
        id="tspan5609"
        x="329.48538"
-       y="17.329878">Salida</tspan></text>
+       y="20.481878">Salida</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.85000038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:12.9452641px;line-height:125%;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Times New Roman, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
      x="89.85965"
      y="71.640663"
-     id="text5617"
-     sodipodi:linespacing="125%"><tspan
+     id="text5617"><tspan
        sodipodi:role="line"
        id="tspan5619"
        x="89.85965"
