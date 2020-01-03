@@ -1,4 +1,4 @@
-Bibliografía
-############
+.. Bibliografía
+.. ############
 
 |ImprimirBibliografía|

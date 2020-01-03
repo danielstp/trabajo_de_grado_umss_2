@@ -1,4 +1,4 @@
-#/bin/bash
+#/bin/bash -x
 
 GeneraSVG(){
 TYPE=svg
@@ -29,6 +29,7 @@ Genera(){
   OPCIONES="--template=$plantilla --documentclass=$tipoDocumento --documentoptions=$opcionesDoc --use-latex-docinfo --use-latex-citations --figure-citations --section-subtitles --smart-quotes=yes -r 3 --section-numbering --compound-enumerators -l $idioma"
   rst2xetex $OPCIONES $nombreArchivo.rst $nombreArchivo.tex > $nombreArchivo.rst.log
   #sed -i $generadoPor  $nombreArchivo.tex
+  sed -i 's/\\DUroletitlereference}\[1\]{\\textsl{#1}}/\\DUroletitlereference}[1]{\\ref{#1}}/g' $nombreArchivo.tex
   sed -i 's/|,|/}{/g' $nombreArchivo.tex
   sed -i 's/{[ ]*/{/g' $nombreArchivo.tex
   sed -i 's/[ ]*}/}/g' $nombreArchivo.tex
@@ -42,12 +43,12 @@ Genera(){
 #  sed -i 's/\\setcounter{secnumdepth}{0}/\\setcounter{secnumdepth}{3}/g' $nombreArchivo.tex
 
 
-  latexmk -latexoption="-synctex=1 -interaction=batchmode -shell-escape" -xelatex $nombreArchivo.tex
-  latexmk -latexoption="-synctex=1 -interaction=batchmode -shell-escape" -xelatex $nombreArchivo.tex
+#  latexmk -xelatex -d -pdflatexoption="-synctex=1 -interaction=batchmode -shell-escape" $nombreArchivo.tex
+  latexmk -xelatex -pdf -dvi- -ps- -silent -pdflatex="xelatex %O %S -synctex=1 -interaction=batchmode -shell-escape" $nombreArchivo.tex
 }
 
 cd gv
-#make
+make
 cd ../Imágenes/svg
 #make
 cd ../..

@@ -13,7 +13,7 @@ matemáticos.
 
 Las bases de esta ingeniería se sentaron a mediados del Siglo XX a partir de la
 cibernética. Sus principales aportaciones corresponden a Norbert Wiener, Rudolf
-Kalman y David G. Luenberger.
+Kalman y David G. Luenberger. ver :cita:`TechniquesControl`.
 
 La ingeniería de control es una ciencia interdisciplinar relacionada con muchos
 otros campos, principalmente las matemáticas y la informática. Las aplicaciones
@@ -96,15 +96,13 @@ cerrado. Los sistemas de lazo abierto no se comparan a la variable controlada
 con una entrada de referencia. Cada ajuste de entrada determina una posición de
 funcionamiento fijo en los elementos de control (por ejemplo con temporizadores).
 
-|InicioFigura|
-|Centrar|
-|ImagenTEX| Imágenes/Generados/ControLazoCerrado |Cierra|
-|Descripción| Control de Lazo Cerrado |Cierra|
+:cita:`TechniquesControl`
+
+:imagentex:`Imágenes/Generados/ControLazoCerrado.tex|,|Control de Lazo Cerrado 
 para controlar el comportamiento dinámico de la referencia; se trata de
 realimentación negativa, pues al valor sensado se le resta el valor deseado
-para crear la señal de error, que es amplificada por el controlador.
-|Etiqueta| fig:ControLazoCerrado |Cierra|
-|FinFigura|
+para crear la señal de error, que es amplificada por el controlador.|,|ControLazoCerrado`
+
 
 Es así que, la realimentación es un mecanismo o proceso cuya señal se mueve
 dentro de un sistema y vuelve al principio de éste como en un bucle, que se
@@ -142,22 +140,17 @@ tales como:
 SCADA
 *****
 
-acrónimo de Supervisory Control And Data Acquisition
+Acrónimo de Supervisory Control And Data Acquisition
 (Supervisión, Control y Adquisición de Datos) es un software para ordenadores
 que permite controlar y supervisar procesos industriales a distancia. Facilita
 retroalimentación en tiempo real con los dispositivos de campo (sensores y
 actuadores), y controla el proceso automáticamente. Provee de toda la
 información que se genera en el proceso productivo (supervisión, control
 calidad, control de producción, almacenamiento de datos, etc.) y permite su
-gestión e intervención.
+gestión e intervención. Ver :cita:`scadaControl`
 
 
-|InicioFigura|
-|Centrar|
-|ImagenTEX| Imágenes/Generados/SCADA |Cierra|
-|Descripción| SCADA |Cierra|
-|Etiqueta| fig:SCADA |Cierra|
-|FinFigura|
+:imagenTEX:`Imágenes/Generados/SCADA.tex|,|SCADA|,|SCADA`
 
 
 La realimentación, también denominada retroalimentación o feedback es, en una

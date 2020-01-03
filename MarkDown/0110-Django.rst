@@ -21,3 +21,8 @@ incluso en configuraciones, archivos, y en los modelos de datos.
 
 Sitio web http://www.djangoproject.com, Ultima versión estable **1.9.4**, al
 5 de Marzo de 2016.
+
+:cita:`practicalDjango`
+
+
+:cita:`startedDjango`
