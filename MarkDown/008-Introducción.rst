@@ -1,5 +1,3 @@
-|NumeraciónEnArabigos|
-
 Introducción
 ############
 
