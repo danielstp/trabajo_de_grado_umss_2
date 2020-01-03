@@ -8,3 +8,6 @@ ui/
 *.run.xml
 *.synctex.gz
 Imágenes/Generados/*.pdf_tex
+Imágenes/Generados/*.eps_tex
+Imágenes/Generados/*.eps
+Imágenes/Generados/*.pdf
