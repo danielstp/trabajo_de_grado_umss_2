@@ -35,7 +35,7 @@ y debe ser considerado en el análisis son cristalización y transición alotró
 cambio de textura, porosidad cambio, y la fractura. El secado es un proceso transitorio; por lo tanto, el cambio de
 
 
-:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.tex|,|Criterios de clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
+:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.pdf_tex|,|Criterios de clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
 
 `introduccion`_
 `fig:clasificacion-equipos-secado`_
@@ -46,10 +46,10 @@ cambio de textura, porosidad cambio, y la fractura. El secado es un proceso tran
 Proceso de Deshidratación de Alimentos
 **************************************
 
-:imagentex:`Imágenes/Generados/CuadroSeveridadCalidad.tex|,|Cuadro Calidad de Deshidratación|,|calidad-deshidratacion`
+:imagentex:`Imágenes/Generados/CuadroSeveridadCalidad.pdf_tex|,|Cuadro Calidad de Deshidratación|,|calidad-deshidratacion`
 
 
-:imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.tex|,|Diagrama de fases de estados por temperatura y presión|,|diagrama-estados`
+:imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.pdf_tex|,|Diagrama de fases de estados por temperatura y presión|,|diagrama-estados`
 
 
 Conclusiones

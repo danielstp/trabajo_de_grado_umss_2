@@ -12,6 +12,9 @@
 .. include:: 005-IndiceGeneral.rst
 .. include:: 006-IndiceDeFiguras.rst
 .. include:: 007-IndiceDeTablas.rst
+
+|NumeraciónEnArabigos|
+
 .. include:: 008-Introducción.rst
 .. include:: 009-Deshidratación.rst
 .. include:: 010-ControlAutomático.rst
