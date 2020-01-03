@@ -1,12 +1,11 @@
-TYPE=svg
-DESTINO=../Imágenes/Generados/
+DESTINO=../Imágenes/Generados
 SRC=$(wildcard *.gv)
-OUT=$(patsubst %.gv, %.$(TYPE), $(SRC))
+OUT=$(patsubst %.gv, $(DESTINO)/%.svg, $(SRC))
 
 all: $(OUT)
 
-%.$(TYPE): %.gv
-	dot $^ -T$(TYPE) -o $(DESTINO)$@
+$(DESTINO)/%.svg: %.gv
+	dot $^ -Tsvg -o $@
 
-clean :
-	rm *.$(TYPE)
+clean:
+	rm $(DESTINO)/*.svg
