@@ -19,7 +19,7 @@ $(SOURCE).tex: $(SOURCE).rst 000-Configuración.rst 001-Caratula.rst 002-Dedicat
 	./rst2xetex.sh $(SOURCE).rst $(SOURCE).tex
 
 $(SOURCE).pdf: $(SOURCE).tex
-	latexmk -f -xelatex -pdf -ps- -silent -pdflatex="xelatex %O %S -synctex=1 -interaction=batchmode -shell-escape" $(SOURCE).tex
+	latexmk -f -xelatex -pdf -dvi- -ps- -silent -pdflatex="xelatex %O %S -synctex=1 -interaction=batchmode -shell-escape" -bibtex-cond  $(SOURCE).tex
 
 clean:
 	rm Imágenes/Generados/*.svg

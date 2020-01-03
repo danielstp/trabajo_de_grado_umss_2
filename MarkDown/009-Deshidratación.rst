@@ -72,7 +72,7 @@ El la figura :t:`fig:clasificacion-equipos-secado` se puede ver de manera gráfi
   - Dispersión
   - Gravedad
 
-:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.tex|,|Criterios de
+:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.pdf_tex|,|Criterios de
 clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
 
 Proceso de Deshidratación de Alimentos
