@@ -72,7 +72,7 @@ El la figura :t:`fig:clasificacion-equipos-secado` se puede ver de manera gráfi
   - Dispersión
   - Gravedad
 
-:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.pdf_tex|,|Criterios de
+:imagentex:`Imágenes/Generados/ClasificaciónEquiposSecado.tex|,|Criterios de
 clasificación de los equipos y sistemas de secado|,|clasificacion-equipos-secado`
 
 Proceso de Deshidratación de Alimentos
@@ -104,7 +104,7 @@ Deshidratación|,|calidad-deshidratacion`
 .. :imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.tex|,|Diagrama de fases
 .. de estados por temperatura y presión|,|diagrama-estados`
 
-:imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.pdf_tex|,|Diagrama de fases de estados por temperatura y presión|,|diagrama-estados`
+:imagentex:`Imágenes/Generados/EstadosTemperaturaPresión.tex|,|Diagrama de fases de estados por temperatura y presión|,|diagrama-estados`
 
 
 Conclusiones

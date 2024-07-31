@@ -116,7 +116,7 @@
 
 .. raw:: latex
 
-   \providecommand*\DUrolecita[1]{\citet*{#1}}
+   \providecommand*\DUrolecita[1]{\cite{#1}}
 
 .. role:: imagentex
 

@@ -70,4 +70,4 @@ hasta la industria de la madera, y tiene un efecto en la economía mundial. Los
 procesos de secado, consumen una parte importante del la energía producida a
 nivel mundial y por tanto se requiere prestar atención, desde el micro nivel al
 macro nivel, para hacer estas mas eficientes, efectivas respecto al costo, y
-amigables para el medio ambiente. :cita:`DryingPhenomena`
+amigables para el medio ambiente. :cita:`DryingPhenomena`.

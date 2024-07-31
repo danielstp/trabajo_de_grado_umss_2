@@ -37,7 +37,7 @@
       \hspace{2cm}\=\+
       \textsc{Presentado por:} \@author    \\
       \\
-      \textsc{Tutor:} MA Leticia Blanco Coca    \\
+      \textsc{Tutor:} Lic. Maria Leticia Blanco Coca   \\
       \\
       %\textsc{Cochabamba - Bolivia}\\
       \\

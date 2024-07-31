@@ -1,17 +1,16 @@
 SRC=$(wildcard *.svg)
-OUT=$(patsubst %.svg, %.pdf, $(SRC))
-OUT1=$(patsubst %.svg, %.eps, $(SRC))
+DESTINO=.
+OUT_TEX=$(patsubst %.svg, $(DESTINO)/%.tex, $(SRC))
+OUT_EPS=$(patsubst %.svg, $(DESTINO)/%.eps, $(SRC))
 
-all: $(OUT) $(OUT1)
+all: $(OUT_TEX) $(OUT_EPS)
 
-%.pdf: %.svg
-	inkscape -D -z -f $^ --export-latex --export-pdf="./$@"
+$(DESTINO)/%.tex: %.svg
+	inkscape --batch-process -D --export-filename="$@" --export-type="" $^
 
-%.eps: %.svg
-	inkscape -D -z -f $^ --export-latex --export-eps="./$@"
+$(DESTINO)/%.eps: %.svg
+	inkscape --batch-process -D --export-filename="$@" --export-type="" $^
 
 clean :
-	rm *.pdf
-	rm *.eps
-	rm *.pdf_tex
-	rm *.eps_tex
+	rm $(DESTINO)/*.tex
+	rm $(DESTINO)/*.eps

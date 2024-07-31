@@ -5,13 +5,13 @@
 
 |NumeraciónEnRomanos|
 
-.. include:: 001-Caratula.rst
+.. include:: 001-Carátula.rst
 .. include:: 002-Dedicatoria.rst
 .. include:: 003-Agradecimientos.rst
 .. include:: 004-FichaResumen.rst
-.. include:: 005-IndiceGeneral.rst
-.. include:: 006-IndiceDeFiguras.rst
-.. include:: 007-IndiceDeTablas.rst
+.. include:: 005-ÍndiceGeneral.rst
+.. include:: 006-ÍndiceDeFiguras.rst
+.. include:: 007-ÍndiceDeTablas.rst
 
 |NumeraciónEnArabigos|
 

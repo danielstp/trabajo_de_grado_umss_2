@@ -1,10 +1,10 @@
 
-:titulosinnumerar:`Agradecimientos`
+:titulosinnumerar:`Herramientas`
 
 |InicioTodoDerecha|
 
-*La realización de este proyecto de grado* |SaltoLinea|
-*Debian,* |LaTeX| *, Docutils, reStructuredText, GNU/Linux, i3wm*
+*Para la realización de este proyecto de grado se usaron:* |SaltoLinea|
+*Devuan,* |LaTeX| *, Docutils, reStructuredText, GNU/Linux, Vim*
 
 |FinTodoDerecha|
 

@@ -1,10 +1,11 @@
 $head_prefix% DsTp <http://daniel.saguez.org/>
+% rubber: set program xelatex
 %%% Requerimientos
 $requirements
 %%% Doc Base
 \usepackage{natbib}
-\bibliographystyle{plainnat}
-
+\bibliographystyle{authoryear-ibid} %plainnat,amsplain
+\usepackage{tocbibind}
 \usepackage{wallpaper}
 \usepackage{fancyhdr}
 %margenes
@@ -47,7 +48,7 @@ $requirements
     linkcolor=blue,
     urlcolor=blue,
     linktoc=all}
-\usepackage{amsmath}
+\usepackage{amsmath,amssymb,amsfonts}
 \usepackage{microtype}
 %para codigo fuente
 \usepackage{color}
@@ -86,10 +87,16 @@ $requirements
 \usepackage{graphicx}
 \usepackage{pstricks}
 % Todas las imágenes están en el directorio:
-\newcommand{\imgdir}{Imágenes}
-\graphicspath{{\imgdir/}}
+\graphicspath{{./Imágenes/Generados/}{./Imágenes/}}
 
 \usepackage{fontspec}
+% \defaultfontfeatures{Scale=MatchLowercase}
+% straight double quotes (defined T1 but missing in TU):
+\ifdefined \UnicodeEncodingName
+  \DeclareTextCommand{\textquotedbl}{\UnicodeEncodingName}{%
+    {\addfontfeatures{RawFeature=-tlig,Mapping=}\char34}}%
+\fi
+
 \usepackage{polyglossia}
 \setmainlanguage{spanish}
 
@@ -120,4 +127,3 @@ $titledata
 % \end{titlepage}
  $body_pre_docinfo$docinfo$dedication$abstract$body
 \end{document}
-
